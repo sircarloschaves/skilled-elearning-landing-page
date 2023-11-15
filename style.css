@@ -5,17 +5,23 @@
   --ff-body: 'Plus Jakarta Sans', sans-serif;
 
   /* Font Weight */
-  --fw-500: 500; 
-  --fw-700: 700; 
-  --fw-800: 800; 
+  --fw_500: 500; 
+  --fw_700: 700; 
+  --fw_800: 800; 
 
   /* Font Size */
-  --fs-hd-xl: 3.5rem;
-  --fs-hd-l: 2.5rem;
+  --fs_hd_xl: 3.5rem;
+  --fs_hd_l: 2.5rem;
   --fs-hd-m: 2rem;
   --fs-hd-s: 1.5rem;
-  --fs-body-m: 1.125rem;
-  --fs-body-s: 1rem; 
+  --fs_body_m: 1.125rem;
+  --fs_body_s: 1rem; 
+
+  /* Line Height */
+  --lh_xl: 4.375rem;
+  --lh_l: 3.1875rem;
+  --lh_m: 2.5rem;
+  --lh_s: 1.75rem;
 
   /* Color */
   --light-blue: hsl(234, 25%, 52%);
