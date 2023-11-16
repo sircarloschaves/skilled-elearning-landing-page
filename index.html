@@ -12,7 +12,7 @@
 <body>
 
   <main>
-    <header>
+    <header class="main-header">
       <img class="logo dark" src="images/logo-dark.svg" alt="skilled">
 
       <button type="button" class="btn">Get Started</button>
@@ -30,17 +30,26 @@
 
       <button type="button" class="btn">Get Started</button>
 
-      <img class="hero-image" src="" alt="">
+      <picture aria-hidden="true" class="hero-image">
+        <source srcset="images/image-hero-desktop.webp" type="image/webp" media="(min-width: 1440px)">
+        <source srcset="images/image-hero-desktop.png" type="image/png" media="(min-width: 1440px)">
+        <source srcset="images/image-hero-tablet.webp" type="image/webp" media="(min-width: 768px)">
+        <source srcset="images/image-hero-tablet.png" type="image/png" media="(min-width: 768px)">
+        <img  src="images/image-hero-mobile.png" alt="">
+      </picture>
+      
     </section>
 
     <section class="courses">
-      <ul class="card -list">
+      <ul class="card-list">
 
         <li class="cta">
           <h2 class="cta-subtitle">Check out our most popular courses!</h2>
         </li>
 
         <li class="card">
+          <img class="card-img" src="images/icon-animation.svg" alt="">
+
           <h2 class="card-subtitle">Animation</h2>
 
           <p class="card-text">
@@ -48,10 +57,12 @@
             design and captivate your audience.
           </p>
 
-          <a href="#" class="card-link">Get Started</a>
+          <a href="#get" class="card-link">Get Started</a>
         </li>
 
         <li class="card">
+          <img class="card-img" src="images/icon-design.svg" alt="">
+
           <h2 class="card-subtitle">Design</h2>
 
           <p class="card-text">
@@ -59,10 +70,12 @@
             how the web looks.
           </p>
 
-          <a href="#" class="card-link">Get Started</a>
+          <a href="#get" class="card-link">Get Started</a>
         </li>
 
         <li class="card">
+          <img class="card-img" src="images/icon-photography.svg" alt="">
+
           <h2 class="card-subtitle">Photography</h2>
 
           <p class="card-text">
@@ -70,10 +83,12 @@
             to capture exceptional photos.
           </p>
 
-          <a href="#" class="card-link">Get Started</a>
+          <a href="#get" class="card-link">Get Started</a>
         </li>
 
         <li class="card">
+          <img class="card-img" src="images/icon-crypto.svg" alt="">
+
           <h2 class="card-subtitle">Crypto</h2>
 
           <p class="card-text">
@@ -81,10 +96,12 @@
             to advanced with this 54 hour course.
           </p>
 
-          <a href="#" class="card-link">Get Started</a>
+          <a href="#get" class="card-link">Get Started</a>
         </li>
 
         <li class="card">
+          <img class="card-img" src="images/icon-business.svg" alt="">
+
           <h2 class="card-subtitle">Business</h2>
 
           <p class="card-text">
@@ -92,14 +109,14 @@
             without outside investment.
           </p>
 
-          <a href="#" class="card-link">Get Started</a>
+          <a href="#get" class="card-link">Get Started</a>
         </li>
 
       </ul>
     </section>
   </main>
 
-  <footer>
+  <footer class="main-footer">
     <img class="logo light" src="images/logo-light.svg" alt="skilled">
     <button type="button" class="btn">Get Started</button>
   </footer>
