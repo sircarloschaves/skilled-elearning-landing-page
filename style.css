@@ -150,7 +150,7 @@ body {
 
 .hero-image {
   margin-block-start: 2.875rem;
-  filter: drop-shadow(-7px 44px 49px hsla(233, 54%, 16%, 0.222));
+  filter: drop-shadow(-7px 5px 15px hsla(233, 54%, 16%, 0.121));
 }
 
 .card-list {
