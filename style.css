@@ -150,6 +150,7 @@ body {
 
 .hero-image {
   margin-block-start: 2.875rem;
+  filter: drop-shadow(-7px 44px 49px hsla(233, 54%, 16%, 0.222));
 }
 
 .card-list {
@@ -176,6 +177,7 @@ body {
   padding-inline: var(--padding_800);
   border-radius: 0.625rem;
   display: grid;
+  box-shadow: rgba(149, 157, 165, 0.115) 0px 8px 24px;
 }
 
 .card-img {
@@ -324,6 +326,7 @@ body {
   .hero-section .btn {
     font-size: var(--fs_body_m);
     padding-inline: var(--padding_900);
+    padding-block: 1.5rem;
     margin-block-start: 2.5rem;
   }
 
@@ -337,6 +340,7 @@ body {
     padding-inline: 10.3125rem;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5rem 1.875rem;
+    margin-block-start: 2.875rem;
   }
 
   .card-list .cta {
